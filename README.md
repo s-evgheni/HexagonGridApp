@@ -11,14 +11,15 @@ To run source code:
 2. Go to org.main.applicationLauncher package and run HexagonGridApp.java file
 
 
-Excercise objective:
-To create a simple swing based window put a grid inside of it and fill that grid with hexagons.
+# Excercise objective:
+To create a simple swing based window, put a grid inside of it and fill that grid with hexagons.
 Each hexagon will have a random letter inside of it.
 You will be able to interact with each Hexagon via keybourd or mouse.
 
-To interact via mouse: click inside any hexagon. An event will be generated and displayed in the console. Clicked hexagon will become inactive
+# Interaction Events
+1. To interact via mouse: click inside any hexagon. An event will be generated and displayed in the console. Clicked hexagon will become inactive
 
-To interact via keyboard: press appropriate letter on the keyboard. This will trigger an event as well which will be displayed in the console. Selected hexagon will become inactive
+2. To interact via keyboard: press appropriate letter on the keyboard. This will trigger an event as well which will be displayed in the console. Selected hexagon will become inactive
 
 The program will terminate itself once there will be no active hexagons left on grid.
 You can control the size of the grid via main class HexagonGridApp.java:
