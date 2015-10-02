@@ -11,7 +11,7 @@ To run source code:
 2. Go to org.main.applicationLauncher package and run HexagonGridApp.java file
 
 
-# Excercise objective:
+# Excercise objective
 To create a simple swing based window, put a grid inside of it and fill that grid with hexagons.
 Each hexagon will have a random letter inside of it.
 You will be able to interact with each Hexagon via keybourd or mouse.
