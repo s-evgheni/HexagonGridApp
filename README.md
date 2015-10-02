@@ -23,7 +23,9 @@ You will be able to interact with each Hexagon via keybourd or mouse.
 
 The program will terminate itself once there will be no active hexagons left on grid.
 You can control the size of the grid via main class HexagonGridApp.java:
+
 ApplicationWindow window = new ApplicationWindow("Main Application Window", 4, 5);
+
 Just replace numbers 4 and 5 with desired width and height.
 
 Sample console output example:
