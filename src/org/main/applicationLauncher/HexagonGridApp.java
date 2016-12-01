@@ -10,9 +10,11 @@ import org.application.gui.ApplicationWindow;
 public class HexagonGridApp {
     
     public static void main(String[] args) {
+        int width  = args[0].length() > 0 ? Integer.parseInt(args[0]) : 4;
+        int length = args[1].length() > 0 ? Integer.parseInt(args[1]) : 5;
         
         //Create main application window with a 4X5 hexagon grid
-        ApplicationWindow window = new ApplicationWindow("Main Application Window", 4, 5);
+        ApplicationWindow window = new ApplicationWindow("Main Application Window", width, length);
         window.draw();
     }
 }
