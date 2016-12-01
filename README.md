@@ -22,9 +22,11 @@ You will be able to interact with each Hexagon via keybourd or mouse.
 2. To interact via keyboard: press appropriate letter on the keyboard. This will trigger an event as well which will be displayed in the console. Selected hexagon will become inactive
 
 The program will terminate itself once there will be no active hexagons left on grid.
-You can control the size of the grid via main class HexagonGridApp.java:
+You can control the size of the grid via main(String[] args), where args[0] is width size and args[1] is length size (e.g java -jar HexagonGridApp.jar 4 5)
 
-ApplicationWindow window = new ApplicationWindow("Main Application Window", 4, 5);
+Program falls back to defaults with width=4 and length=5 if args[] will not be supplied 
+
+ApplicationWindow window = new ApplicationWindow("Main Application Window", width, length);
 
 Just replace numbers 4 and 5 with desired width and height.
 
